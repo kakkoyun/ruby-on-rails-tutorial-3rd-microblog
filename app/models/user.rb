@@ -3,4 +3,8 @@ class User < ActiveRecord::Base
 
   validates :content, presence: true
   validates :user, presence: true
+
+  def to_s
+    name
+  end
 end
