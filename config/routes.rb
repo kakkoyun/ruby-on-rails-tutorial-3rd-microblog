@@ -3,8 +3,9 @@ Rails.application.routes.draw do
   get 'help' => 'static_pages#help'
   get 'static_pages/about', as: :about
   get 'static_pages/contact', as: :contact
-  get '/hello', to: 'application#hello'
+  get 'signup'  => 'users#new'
 
+  get '/hello', to: 'application#hello'
 
   resources :microposts
   resources :users
