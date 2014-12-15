@@ -1,0 +1,103 @@
+TODO
+
+Web Application Frameworks Presentation
+----------------------------------------
+
+HTTP
+Web Applications / Web Services
+Web Application Framework
+REST
+How to choose?
+  Full-stack
+  - Django/Python
+  - Play/Scala
+  - Spring MVC/Play/Java
+  - Groovy/Grails
+  - Vaadin/Java
+  - GWT/Java
+  - ASP.NET/C#-VB.NET
+  - Lift/Scala
+  Backend
+  - Node.js/Javascript
+  Front-end
+  - Angular.js/Javascript
+  - Ember.js/Javascript
+
+Design Patterns
+Object Oriented Programming
+Dynamic Typed Languages
+Conventions
+Idiomatic Coding
+Extreme Programming, etc.
+
+Rails
+-----
+Airbnb, Basecamp, Disney, GitHub, Hulu, Kickstarter, Shopify, Twitter, Yellow Pages, Linkedin.
+
+What makes Rails so great? First of all, Ruby on Rails is 100% open-source, available under the permissive MIT License, and as a result it also costs nothing to download or use.
+
+Rails also owes much of its success to its elegant and compact design; by exploiting the malleability of the underlying Ruby language, Rails effectively creates a domain-specific language for writing web applications.
+
+As a result, many common web programming tasks—such as generating HTML, making data models, and routing URLs—are easy with Rails, and the resulting application code is concise and readable.
+
+Rails was one of the first frameworks to fully digest and implement the REST architectural style for structuring web applications.
+
+Editor
+-------
+RubyMine
+Sublime Text
+Vim
+Emacs
+
+Database
+---------
+PostgreSQL
+MySQL
+NoSQL Databases
+
+Version Control
+----------------
+Git
+http://git-scm.com
+http://git-scm.com/book/en/v2
+SVN
+
+Ruby
+-----
+https://pragprog.com/book/ltp2/learn-to-program
+http://tryruby.org/levels/1/challenges/0
+https://www.codeschool.com/paths/ruby
+
+Smalltalk
+Lisp
+Object Oriented
+Dynamic Types
+"Everybody likes languages like Lisp, but not Lisp."
+
+===============================================================================
+
+Rails
+------
+
+Install Rails: http://installrails.com
+https://www.railstutorial.org
+
+Convention Over Configuration
+
+MVC
+Model
+Controller
+View
+
+Generators
+Migrations
+HTTP/REST
+Routing
+Scaffolding
+
+rbenv
+git
+gem
+bundle
+
+DEMO
