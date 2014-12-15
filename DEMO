@@ -1,0 +1,102 @@
+Demo Path
+----------
+
+http://installrails.com
+gem install rails -v 4.1.8
+rails _4.1.8_ new micro-blogging-app
+
+--
+gem install bundler
+bundle install (or bundle)
+--
+
+rails server (rails s)
+rails s -b 127.0.0.1 -p 3000
+
+--
+Example: Hello World!
+--
+
+git init
+# Edit .gitignore
+
+git add . (git add -A)
+git commit -am 'init.'
+git remote add origin master github/bitbucket (maybe ssh key)
+git push -u origin master
+git push -u origin --all
+
+git log
+git status
+
+rm -rf app/
+git checkout -f
+
+rails generate scaffold User name:string email:string
+# Show generated files and scaffold functionality.
+
+rails generate scaffold Micropost content:string user:references
+rails generate scaffold Micropost content:string user_id:integer
+
+# Associations
+# Rails console association demo
+
+# VALIDATIONS : Demo
+
+rails generate controller StaticPages home help about
+# Edit pages
+
+# Helper Demo
+# Full Title
+
+
+# Flavour Pages
+--
+curl -O http://rubyonrails.org/images/rails.png
+mv rails.png app/assets/images/
+--
+
+gem 'bootstrap-sass', '3.3.1'
+gem 'autoprefixer-rails'
+
+app/assets/stylesheets/custom.css.scss
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+# application.js
+//= require bootstrap-sprockets
+
+# Reload Server
+
+# Partials
+# Header/Footer
+
+# Tell About Asset Pipeline
+
+# Contact Page and Links
+# Router Path logic
+
+
+# User Model Additions
+# Unique index add email
+add_index :users, :email, unique: true
+before_save { self.email = email.downcase }
+
+has_secure_password
+rails generate migration add_password_digest_to_users password_digest:string
+# DO NOT Forget
+gem 'bcrypt', '~> 3.1.7'
+
+
+# Gravatar
+
+# User form
+# Error messages
+
+# Login/ Logout
+get    'login'   => 'sessions#new'
+post   'login'   => 'sessions#create'
+delete 'logout'  => 'sessions#destroy'
+
+rails generate controller Sessions new
+
